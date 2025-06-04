@@ -1,0 +1,13 @@
+prefix=/home/tsmith/Documents/projects/aws/awsbedrock
+exec_prefix=/home/tsmith/Documents/projects/aws/awsbedrock
+libdir=/home/tsmith/Documents/projects/aws/awsbedrock/lib
+sharedlibdir=/home/tsmith/Documents/projects/aws/awsbedrock/lib
+includedir=/home/tsmith/Documents/projects/aws/awsbedrock/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
